@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "BeekonKit",
             url: "https://raw.githubusercontent.com/wayqteam/beekon-ios-binary/v0.0.5/BeekonKit.xcframework.zip",
-            checksum: "9a6923590e2ee9dca26c60861b1c5af98ecd7c2d2bd57665c96612921bcb1b28"
+            checksum: "437bf493d7de19d8df9599da097be162796a8304eb2d7826cf2505c33d4603f7"
         )
     ]
 )
