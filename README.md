@@ -1,13 +1,13 @@
 # beekon-ios-binary
 
-SwiftPM distribution shell for the [Beekon iOS SDK](https://github.com/wayqteam/beekon).
+SwiftPM distribution shell for the [Beekon iOS SDK](https://github.com/beekonlabs/beekon).
 
-The source code lives in the monorepo at https://github.com/wayqteam/beekon under `beekon-ios/`. This repo only holds the `Package.swift` manifest and the per-release `BeekonKit.xcframework.zip` (attached to the corresponding GitHub Release).
+The source code lives in the monorepo at https://github.com/beekonlabs/beekon under `beekon-ios/`. This repo only holds the `Package.swift` manifest and the per-release `BeekonKit.xcframework.zip` (attached to the corresponding GitHub Release).
 
 ## Use
 
 ```swift
-.package(url: "https://github.com/wayqteam/beekon-ios-binary.git", from: "0.0.1")
+.package(url: "https://github.com/beekonlabs/beekon-ios-binary.git", from: "0.0.1")
 ```
 
 ## What's here
@@ -17,4 +17,4 @@ The source code lives in the monorepo at https://github.com/wayqteam/beekon unde
 
 ## Don't edit by hand
 
-This repo is CI-managed by [`wayqteam/beekon`'s `ios-release.yml`](https://github.com/wayqteam/beekon/blob/main/.github/workflows/ios-release.yml). Manual edits will be overwritten on the next release.
+This repo is CI-managed by [`beekonlabs/beekon`'s `ios-release.yml`](https://github.com/beekonlabs/beekon/blob/main/.github/workflows/ios-release.yml). Manual edits will be overwritten on the next release.
